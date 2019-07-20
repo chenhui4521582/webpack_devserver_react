@@ -21,14 +21,6 @@ let path = require('path'),
         module:{
             rules:[
                 {
-                    test:/\.vue$/,
-                    use:{
-                        loader:'vue-loader'
-                        // 使用组件   vue-loader , vue-template-compiler;
-                    },
-                    exclude:/node_modules/
-                },
-                {
                     test:/\.(js|jsx)$/,
                     use:{
                         loader:'babel-loader',

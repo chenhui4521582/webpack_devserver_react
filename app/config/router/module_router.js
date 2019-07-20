@@ -140,38 +140,30 @@ class ReactRoutes extends Component{
                 <Route exact path='/admin/user' component={admin_user}/>
                 <Route path='/admin/user/detail' component={admin_user_detail}/>
                 <Route path='/admin/add' component={admin_add}/>
-
                 <Route path='/commonusers/user' component={commonusers_users}/>
                 <Route path='/commonusers/kycs' component={commonusers_kyc}/>
                 <Route exact path='/commonusers/c2c' component={commonusers_C2C}/>
                 <Route path='/commonusers/c2c/detail' component={commonusers_C2C_detail}/>
                 <Route path='/commonusers/symbol_white_list' component={setting_symbolWhiteList} />
                 <Route path='/commonusers/personal_info' component={commonusers_personal_info} />
-
                 <Route exact path='/role/list' component={role_list}/>
                 <Route path='/role/add' component={role_add}/>
                 <Route path='/role/list/people' component={role_people}/>
                 <Route path='/role/list/config' component={role_config}/>
-
                 <Route path='/coin_in/:id' component={coin_in} />
                 <Route path='/coin_out/:id' component={coin_out} />
                 <Route path='/coin_check/:id' component={coin_check} />
                 <Route path='/coin_interior/:id' component={coin_interior} />
-
                 <Route path='/trade/record' component={trade_record} />
                 <Route path='/trade/entrustRecord' component={trade_entrustRecord} />
-
                 <Route path='/setting/coin_config' component={setting_coinConfig} />
                 <Route path='/setting/coin_add' component={setting_coinAdd} />
                 <Route path='/setting/symbol_config' component={setting_symbolConfig} />
                 <Route path='/setting/symbol_add' component={setting_symbolAdd} />
-
                 <Route path='/account/set_pwd' component={account_setPwd} />
                 <Route path='/account/google' component={account_google} />
                 <Route path='/account/login_info' component={account_loginInfo} />
-
                 <Route path='/users/companylist' component={users_companylist} />
-
                 <Route path='/finance/summary' component={finance_summary} />
                 <Route path='/finance/collection_failed' component={finance_collection_failed} />
                 <Route path='/finance/collection_success' component={finance_collection_success} />
