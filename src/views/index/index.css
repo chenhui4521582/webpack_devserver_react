@@ -1,0 +1,41 @@
+.index {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 500px;
+}
+.title {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.btn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.imgs {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+  background: url(./img/bg.png) no-repeat center center / 100% 100%;
+}
+.img2 {
+  width: 100px;
+  height: 100px;
+  background: url(./img/price-tq.png) no-repeat center center / 100% 100%;
+}
+.img3 {
+  width: 100px;
+  height: 100px;
+  background: url(./img/prize.png) no-repeat center center / 100% 100%;
+}
+
+.parentComponent,.children {
+  padding: 0 10px 10px 10px;
+  border-bottom: 1px solid #ccc;
+}
